@@ -25,10 +25,15 @@ public class A2Q6 {
             if(Holiday==1){
                 System.out.println("You should set an alarm for 10:00 AM.");
             }else{
-                System.out.println("You should set your alarm for 7:00 Am.");
+                System.out.println("You should set your alarm for 7:00 AM.");
             }
         }else{
-            
+            if(Day>=6&&Day<8){
+                System.out.println("You should set an alarm for 10:00 AM");
+            }
+        }
+        if(Day>=8){
+            System.out.println("You should wake, up, you're dreaming.");
         }
     }
 }
