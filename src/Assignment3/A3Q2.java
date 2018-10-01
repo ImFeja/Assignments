@@ -26,7 +26,7 @@ public class A3Q2 {
                 double Base2=Base;
                 while(Times<=Exp){
                     Value=Base*Base2;
-                    Times=Times++;
+                    Times=Times+1;
                 }
                 System.out.println(+Value+".");
     }
