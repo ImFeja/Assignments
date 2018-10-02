@@ -21,12 +21,11 @@ public class A3Q2 {
                 double Base = input.nextInt();
                 System.out.println("Please enter a exponent.");
                 double Exp = input.nextInt();
-                double Value=0;
-                double Times=0;
-                double Base2=Base;
-                while(Times<=Exp){
-                    Value=Base*Base2;
-                    Times=Times+1;
+                double Value=Base;
+                double Times=1;
+                while(Times<Exp){
+                    Value=Value*Base;
+                    Times=Times+1;                       
                 }
                 System.out.println(+Value+".");
     }
