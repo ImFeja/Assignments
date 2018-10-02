@@ -28,7 +28,9 @@ public class A3Q4 {
                     if(counter==5){
                     System.out.println("JUST PUT A NUMBER BIGGER THAN ONE ALREADY!!!");
                 }
-                }  
-                
+             }  
+                for(int i = 0; i < Numba; i++){
+                    
+                }
     }
 }
