@@ -17,7 +17,7 @@ public class A3Q4 {
      */
     public static void main(String[] args) {
          Scanner input = new Scanner(System.in);
-                System.out.println("Please give us a number.");
+                System.out.println("Please give us a number greater than 1.");
                 double Numba = input.nextInt();
     }
 }
