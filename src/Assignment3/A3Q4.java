@@ -29,8 +29,8 @@ public class A3Q4 {
                     System.out.println("JUST PUT A NUMBER BIGGER THAN ONE ALREADY!!!");
                 }
              }  
-                for(int i = 0; i < Numba; i++){
-                    
+                for(int i = 0; i <= Numba; i++){
+                    System.out.print("["+i+"],");
                 }
     }
 }
