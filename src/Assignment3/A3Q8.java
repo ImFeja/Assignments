@@ -20,20 +20,22 @@ public class A3Q8 {
                 System.out.println("Guess a number between 1-100.");
                 int number = (int)(Math.random()*100 + 1);
                 boolean correct=false;
-                int Numba = input.nextInt();
                 while(correct==false){
+                    int Numba = input.nextInt();
                     while(Numba>number){
-                        System.out.println("Too low.");
+                        System.out.println("Too High.");
                         Numba = input.nextInt();
                     }
-                    while(Numba>number){
-                        System.out.println("Too high.");
+                    while(Numba<number){
+                        System.out.println("Too Low.");
                         Numba = input.nextInt();
                      }
                     
-                    
+                    if(Numba==number){
+                        correct=true;
+                    }
                 }
-                while(correct==true){
+                if(correct==true){
                     System.out.println("You got it! The number was "+number+ "!");
                 }
     }
