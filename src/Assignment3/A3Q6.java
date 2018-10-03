@@ -25,13 +25,13 @@ public class A3Q6 {
                     System.out.println("Between one and five.");
                     Numba = input.nextInt();
                     counter=counter+1;
-                    if(counter==5){
+                    if(counter>=5){
                     System.out.println("JUST PUT A NUMBER BETWEEN ONE AND FIVE ALREADY!!!");
                 }
              }  
                 for(int i = 1; i <= Numba; i++){
                     System.out.print("*");
-                     System.out.println("*");
+                    System.out.println("*");
                 }               
     }
 }
